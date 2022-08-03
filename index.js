@@ -16,7 +16,7 @@ client.embedMaker = function embedMaker(author, title, description) {
     embed.setAuthor(author.tag, author.displayAvatarURL());
     embed.setTitle(title);
     embed.setDescription(description);
-    embed.setFooter('Command created by zachariapopcorn#8105 - https://discord.gg/XGGpf3q');
+    embed.setFooter('Bot Created By Envy');
     return embed;
 }
 
