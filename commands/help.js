@@ -17,7 +17,7 @@ exports.run = async(message, client, args) => {
     embed.setColor(embedColor);
     embed.setAuthor(message.author.tag, message.author.displayAvatarURL());
     embed.setTitle("Command List");
-    embed.setFooter('Command created by zachariapopcorn#8105 - https://discord.gg/XGGpf3q');
+    embed.setFooter('Bot Created by Envy');
 
     let description = `There are ${client.commandList.length} commands\n\n`;
 
